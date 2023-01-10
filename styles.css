@@ -1,0 +1,126 @@
+nav {
+    background-color: rgb(49, 49, 49);
+    height: 10vh;
+    width: 100vw;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    position: fixed;
+    z-index: 4294;
+}
+.lele {
+    text-decoration: none;
+    padding: 1.68vw;
+    color: beige;
+    transition: ease-in-out 0.3s;
+}
+.lele:hover{
+    background-color: rgb(204, 204, 204); 
+    color: black;
+    border-radius: 10px;
+}
+* {
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: Calibri, sans-serif, monospace;
+    background-image: url('https://64.media.tumblr.com/42815c2c4e1021a66c1f95c011176d07/6611b4167f55f2ea-65/s2048x3072/e608507556492322888605a60d3f0a64f9bb8125.jpg');
+}
+#beginning {
+    top: 20vh;
+    left: 23vw;
+    font-size: 30px;
+    position: absolute;
+}
+#profile {
+    position: absolute;
+    top: 20vh;
+    width: 20vw;
+    height: auto;
+    left: 56vw;
+}
+#section1 {
+    width: 800px;
+    height: 500px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+#section2 {
+    text-align: center;
+    font-size: 27px;
+}
+footer {
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin:0;
+    background-color: white;
+}
+div.polaroid {
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-left: 5vw;
+    display: inline-block;
+}
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+a {
+    color:black;
+}
+.bigger {
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 40px;
+}
+.containment {
+    width: 100%;
+    background-color: rgba(221, 221, 221, 0.856);
+    margin-bottom: 5vh;
+}
+.skills {
+    opacity: 1;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    color: white;
+    
+}
+.html {width: 90%; background-color: #21da09; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.css {width: 70%; background-color: #2605e0; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.js {width: 60%; background-color: #ee0808; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.alignit {
+    text-align: center;
+    font-size: 20px;
+}
+#pp {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 42vw;
+    width: 15%;
+    height: auto;
+}
+.info {
+    text-align: center;
+    margin-top: 10px;
+}
+#contactinfo {
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    background-color: beige;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    margin-top: -7vh;
+}
